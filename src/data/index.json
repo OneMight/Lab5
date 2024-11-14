@@ -19,8 +19,20 @@
       "pilotSurname": "verstaphen",
       "age": "37",
       "group": "f1",
-      "team": "redull"
+      "team": "RedBull"
     },
     "createdAt": "2024-11-13T15:53:52.410Z"
+  },
+  {
+    "filename": "Peres_1732514532467.json",
+    "Pilot": {
+      "id": 1732514532467,
+      "pilotName": "Felix",
+      "pilotSurname": "Peres",
+      "age": 37,
+      "group": "f1",
+      "team": "McLaren"
+    },
+    "createdAt": 1731518862165
   }
 ]

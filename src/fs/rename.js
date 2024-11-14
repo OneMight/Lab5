@@ -7,8 +7,7 @@ const rename = (oldName, newName)=>{
         if(!fs.existsSync(oldName)){
             throw new Error(`Файла с именем пилота ${oldName} не существует`)
         }
-        console.log(oldName)
-        console.log(newName);
+        
         fs.renameSync(oldName,newName);
         console.log(`Файл с именем ${oldName} перемеименован в ${newName}`);
     }

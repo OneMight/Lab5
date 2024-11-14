@@ -4,9 +4,9 @@ const path = require("path")
 function copyFile(FolderForCopy, foldertoCopy){
     try{
         fs.copyFileSync(FolderForCopy, foldertoCopy);
-        console.log(`Файл ${FolderForCopy} скопирован в ${foldertoCopy}`);
+        console.log(`Папка ${FolderForCopy} скопирована в ${foldertoCopy}`);
     } catch (error){
-        console.error(`Ошибка при копировании файла ${FolderForCopy} в ${foldertoCopy}`);
+        console.error(`Ошибка при копировании папки ${FolderForCopy} в ${foldertoCopy}`);
     }
 }
 
